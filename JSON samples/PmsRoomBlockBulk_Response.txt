@@ -1,0 +1,40 @@
+HTTP/1.1 202 Accepted
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Length: 690
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Ni-TrackingId: 86b987ba-ef92-41b6-8cd2-6b3e789f2eb2
+Ni-CorrelationId: a34b12d2-c31a-4efa-abe3-3f289e38a5cd
+Ni-TrackingUri: https://naas-dev.newmarketinc.com/API/Tracking/86b987ba-ef92-41b6-8cd2-6b3e789f2eb2
+Ni-Status: Success
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 18 Mar 2015 19:32:55 GMT
+Connection: close
+
+{
+  "ExternalCreatedOn": "2015-03-18T19:32:54.8052814Z",
+  "ResourceId": "86b987ba-ef92-41b6-8cd2-6b3e789f2eb2[1204]",
+  "ResourceType": "PmsRoomBlock",
+  "ResultMessages": [
+    {
+      "Level": "Info",
+      "Message": "Accepted the PmsRoomBlock message for processing.",
+      "MessageCode": {
+        "Code": "Accepted",
+        "Name": "Successfully received for processing."
+      },
+      "ResourceId": "86b987ba-ef92-41b6-8cd2-6b3e789f2eb2[1204]",
+      "ResourceType": "PmsRoomBlock",
+      "ExtendedAttributes": []
+    }
+  ],
+  "SenderType": {
+    "Code": "NWS",
+    "Name": "Newmarket Web Services"
+  },
+  "Status": "Accepted",
+  "ExtendedAttributes": []
+}
