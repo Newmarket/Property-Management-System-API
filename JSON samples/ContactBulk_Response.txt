@@ -1,0 +1,40 @@
+HTTP/1.1 202 Accepted
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Length: 674
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Ni-TrackingId: c3fd796f-c12a-4044-a6f9-13680a8173ff
+Ni-CorrelationId: 1ab7fcf2-8003-4b7c-9057-1a9df0085df8
+Ni-TrackingUri: https://naas-dev.newmarketinc.com/API/Tracking/c3fd796f-c12a-4044-a6f9-13680a8173ff
+Ni-Status: Success
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 18 Mar 2015 19:30:32 GMT
+Connection: close
+
+{
+  "ExternalCreatedOn": "2015-03-18T19:30:31.718406Z",
+  "ResourceId": "c3fd796f-c12a-4044-a6f9-13680a8173ff[1204]",
+  "ResourceType": "Contact",
+  "ResultMessages": [
+    {
+      "Level": "Info",
+      "Message": "Accepted the Contact message for processing.",
+      "MessageCode": {
+        "Code": "Accepted",
+        "Name": "Successfully received for processing."
+      },
+      "ResourceId": "c3fd796f-c12a-4044-a6f9-13680a8173ff[1204]",
+      "ResourceType": "Contact",
+      "ExtendedAttributes": []
+    }
+  ],
+  "SenderType": {
+    "Code": "NWS",
+    "Name": "Newmarket Web Services"
+  },
+  "Status": "Accepted",
+  "ExtendedAttributes": []
+}
