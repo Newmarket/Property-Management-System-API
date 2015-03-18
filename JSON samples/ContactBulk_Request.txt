@@ -1,0 +1,590 @@
+POST https://naas-dev.newmarketinc.com/pms/Contact/Bulk HTTP/1.1
+Content-Type: application/json
+Authorization: OAuth YbwwFwyA1k18fg5d0fDyCdSvJ7E+Lg4yHGPJeEKfFdKj2OPvDYbn6ZMTyF0WpFa9qQLLcSA7C5u1urLw0HfnN1ATfClDBySQh2towqiE/VmM0/En1Kr2zet6qxaq6NMFjCA+mSQ8MwEnss9xi0ZGOx7/QJ3L+PA4KZBjqmiSMEPkFsXZbnP67P5H72BbWUHqJr1/D16izirMQKmi5uFkD0M95XvqUbq8MxPWsv6L6irKldMUh0dLuHpBc2khTaIXceRDbmQz5YoYaVugV5S2xuvQrExPczdOVMSoCdnBI1hiEftEmVHxKzrvIVMts5bc2XsN0dn4GhbrnnOTkIhZv8OpdfDU/T8fGM+CucfGRrCFHHLw/nUiWN0rhkrJruCDhOZzu7mD2wc17O/QR8sb5pZQMwdF60HF8Ui1W01OsV/OEDG67mNtFTiBkiPlyl3DMzb9jZ0drK9fIYeoinQJj+8mQP2jPoDM8go10k0j2Zh5/1PYtvksa5ZKf495vtw6vkr17yOs+Ki+r2xAS7q0QNxVRpmClEISYIwGgJmCCYSUlzvdeiTu3vFLDS58HWJE5M710HKFAGejpdoO9rN8HgFrRPV9pgrpgVYCFgK+mVTucRfsKaI51Sb5pm3iAHR1wiGoTQT9Dex0s4dNUPflKnXFSyBF0lwCL91gdCxcUNUAGOqWI0U1zIzek4/jKTbKucGynVHRjkNSERDg2fUnF6Q2b7yZaJvOAzt3gwfGMVMOLHdmryj1UIKACExL8L0c6cfleS3rxDkYnyU7u9wDn2H+/o9gIE0qzhnJ1MzrVdiXB4SwBRp8/gvhc+ZWYOatIQn3TFALt+O63B8j0bQSJEKCWgMSeTtgPjgFcgBR6DlRiqc13T55FSjgJmICuqK5
+Host: naas-dev.newmarketinc.com
+Content-Length: 21819
+Expect: 100-continue
+Connection: Close
+
+[
+    {
+        "RecordStatus": "Active",
+        "OriginalId": "Contact1",
+        "Id": "PMS1.Contact1",
+        "AdditionalIds": [
+            {
+                "IdValue": "IATA Value",
+                "IdType": {
+                    "Code": "IATANumber"
+                }
+            },
+            {
+                "IdValue": "taxIdValue1",
+                "IdType": {
+                    "Code": "TaxId"
+                }
+            },
+            {
+                "IdValue": "ABC123",
+                "IdType": {
+                    "Code": "IATANumber"
+                }
+            },
+            {
+                "IdValue": "TAX1234567",
+                "IdType": {
+                    "Code": "TaxId"
+                }
+            }
+        ],
+        "VipStatus": {
+            "Name": "VIP Status1",
+            "Code": "VIP1"
+        },
+        "TransactionalCommPreferences": [
+            {
+                "StayType": [
+                    "Business",
+                    "Personal"
+                ],
+                "PhoneNumber": "603-911-911",
+                "LocationCode": [
+                    {
+                        "Name": "Tampa Property",
+                        "Code": "242848"
+                    },
+                    {
+                        "Name": "Tampa Property",
+                        "Code": "242848"
+                    }
+                ],
+                "Email": "ayoung@test.com",
+                "CommunicationTypes": [
+                    "PreStay",
+                    "PostStay",
+                    "Confirmation",
+                    "Cancellation",
+                    "InHouse"
+                ],
+                "CommunicationOptInOut": "OptIn",
+                "CommunicationMethod": "Email",
+                "CommunicationFormat": "Text"
+            }
+        ],
+        "Title": "SVP, Operations",
+        "Suffix": "Jr.",
+        "StayPreferences": [
+            {
+                "StayType": [
+                    "Business",
+                    "Personal"
+                ],
+                "PreferenceValue": "PreferenceValue",
+                "PreferenceCode": {
+                    "Name": "Preference Code1",
+                    "Code": "PREFCODE1"
+                },
+                "PreferenceCategory": {
+                    "Name": "Preference Category1",
+                    "Code": "PREFCAT1"
+                },
+                "LocationCode": [
+                    {
+                        "Name": "Tampa Property",
+                        "Code": "242848"
+                    },
+                    {
+                        "Name": "Tampa Property",
+                        "Code": "242848"
+                    }
+                ]
+            }
+        ],
+        "SpouseName": "Diana Young",
+        "Salutation": "Sir",
+        "Pronunciation": "Andy Yung",
+        "PhoneNumbers": [
+            {
+                "Priority": 1,
+                "PhoneNumberType": {
+                    "Code": "OfficeDirect"
+                },
+                "Phone": "6034578566",
+                "IsPrimary": true,
+                "Extension": "3423"
+            }
+        ],
+        "NumberOfChildren": 3,
+        "MiddleName": "Flower",
+        "Memberships": [
+            {
+                "SignupDate": "2015-03-13",
+                "ProgramType": {
+                    "Name": "ProgramType1",
+                    "Code": "PROGTYPE1"
+                },
+                "ProgramCode": {
+                    "Name": "Default Program Code",
+                    "Code": "PROGRAM"
+                },
+                "MembershipNumber": "12345",
+                "MembershipLevel": {
+                    "Name": "Default Membership Level",
+                    "Code": "LEVEL"
+                },
+                "ExpireDate": "2015-03-31",
+                "EffectiveDate": "2015-03-13",
+                "CurrentPointsDate": "2015-03-13",
+                "CurrentPoints": 50
+            },
+            {
+                "SignupDate": "2015-01-28",
+                "ProgramType": {
+                    "Name": "ProgramType1",
+                    "Code": "PROGTYPE1"
+                },
+                "ProgramCode": {
+                    "Code": "PROG1"
+                },
+                "MembershipNumber": "MembershipNumber_1",
+                "MembershipLevel": {
+                    "Name": "Membership Level1",
+                    "Code": "MEMLEVEL1"
+                },
+                "ExpireDate": "2016-01-04",
+                "EffectiveDate": "2015-01-29",
+                "CurrentPointsDate": "2015-01-28",
+                "CurrentPoints": 50
+            }
+        ],
+        "MarketingCommPreferences": [
+            {
+                "PhoneNumber": "603-911-911",
+                "LocationCode": [
+                    {
+                        "Name": "Tampa Property",
+                        "Code": "242848"
+                    }
+                ],
+                "Email": "ayoung@test.com",
+                "CommunicationOptInOut": "OptIn",
+                "CommunicationMethod": "Email",
+                "CommunicationFrequency": "Weekly",
+                "CommunicationFormat": "Text"
+            }
+        ],
+        "MaritalStatus": {
+            "Code": "Married"
+        },
+        "Locations": [
+            {
+                "Name": "Tampa Property",
+                "Code": "242848"
+            },
+            {
+                "Name": "Tampa Property",
+                "Code": "242848"
+            },
+            {
+                "Name": "Tampa Property",
+                "Code": "242848"
+            },
+            {
+                "Name": "Tampa Property",
+                "Code": "242848"
+            }
+        ],
+        "LastName": "Young",
+        "LanguageCode": {
+            "Name": "English",
+            "Code": "EN"
+        },
+        "IsGlobal": false,
+        "Initials": "AY",
+        "Honorific": "Mr.",
+        "Gender": {
+            "Code": "Male"
+        },
+        "FirstName": "Andy",
+        "EmailAddresses": [
+            {
+                "IsPrimary": true,
+                "EmailAddressType": {
+                    "Code": "Business"
+                },
+                "Address": "ayoung@test.com"
+            }
+        ],
+        "Department": "Internal Operations",
+        "DateOfBirth": "1966-01-01",
+        "Comments": [
+            {
+                "Originator": "Andy Young",
+                "IsPublic": true,
+                "CommentType": {
+                    "Name": "Comment Type2",
+                    "Code": "CMTTYP2"
+                },
+                "CommentText": "Comment text goes here",
+                "CommentDate": "2015-02-10T19:04:00.000Z"
+            },
+            {
+                "Originator": "PMSA",
+                "IsPublic": true,
+                "CommentType": {
+                    "Name": "Comment Type1",
+                    "Code": "CMTTYP1"
+                },
+                "CommentText": "Comment Type2. India got from the game the two points they needed to keep their chances of making the final alive after persistent rain ensured only 16 overs were bowled. Looking at the overcast skies and the tackiness underfoot, Australia's returning captain George Bailey put India in, and saw India struggle to 69 for 2 in 16 overs. Shikhar Dhawan clocked another failure, scoring 8 before gloving Mitchell Starc to first slip while trying to open the face of the bat. Ambati Rayudu didn't look at home batting at No. 3, and top-edged Mitchell Marsh while coming down the track and slashing.\r\n\r\nIndia might have issues, but they stayed alive in the tournament. Had they lost they would have been left with the task of beating England by a bonus point and also correcting their net run rate significantly in the final league match, to be played in Perth on Friday. India now have two points to England's five and Australia's 15. The India-England match is now a virtual semi-final.\r\n\r\nThere was more good news for India, in that they played their two injured bowlers, Ishant Sharma and Ravindra Jadeja. The two could be key to their World Cup plans. Rohit Sharma stayed out with a sore hamstring, but this will give him time to recover.",
+                "CommentDate": "2015-01-27T16:04:00.000Z"
+            },
+            {
+                "Originator": "PMSA",
+                "IsPublic": false,
+                "CommentType": {
+                    "Name": "Comment Type2",
+                    "Code": "CMTTYP2"
+                },
+                "CommentText": "Comment Text with chinese chracters:  1月26日，李克强主持召开座谈会，听取专家学者和企业界人士对《政府工作报告》的意见建议。李克强说，政府不能总给市场“发号施令”，而要集中精力做好自己“该做的工作”。他开门见山对参会者说：“请各位为《政府工作报告》提出宝贵意见。”",
+                "CommentDate": "2015-01-28T16:07:00.000Z"
+            }
+        ],
+        "AssistantName": "Andy Young Sr.",
+        "AlternateTitle": "AY",
+        "AlternateSuffix": "Jr.",
+        "AlternateSalutation": "Sir",
+        "AlternateMiddleName": "Flower",
+        "AlternateLastName": "Young",
+        "AlternateLanguageCode": {
+            "Name": "Spanish",
+            "Code": "ES"
+        },
+        "AlternateHonorific": "Sir",
+        "AlternateFirstName": "Andrew",
+        "Addresses": [
+            {
+                "StateProvince": "NH",
+                "PostalCode": "03801",
+                "Longitude": 70.7606,
+                "Lattitude": 43.0756,
+                "IsPrimary": true,
+                "CountryCode": {
+                    "Code": "US"
+                },
+                "Country": "United States",
+                "City": "Portsmouth",
+                "AlternateStateProvince": "NH",
+                "AlternatePostalCode": "03801",
+                "AlternateCountry": "United States",
+                "AlternateCity": "Portsmouth",
+                "AlternateAddressLine3": "1st Floor",
+                "AlternateAddressLine2": "STE 100",
+                "AlternateAddressLine1": "135 Commerce Way",
+                "AddressType": {
+                    "Code": "Mailing"
+                },
+                "AddressLine3": "2nd Floor",
+                "AddressLine2": "STE 300",
+                "AddressLine1": "75 NH Ave"
+            }
+        ],
+        "AccountRelationships": [
+            {
+                "Role": {
+                    "Code": "Customer"
+                },
+                "AccountId": "001o0000009z81qAAA"
+            }
+        ]
+    },
+    {
+        "RecordStatus": "Active",
+        "OriginalId": "Contact2",
+        "Id": "PMS1.Contact2",
+        "AdditionalIds": [
+            {
+                "IdValue": "IATA Value",
+                "IdType": {
+                    "Code": "IATANumber"
+                }
+            },
+            {
+                "IdValue": "taxIdValue1",
+                "IdType": {
+                    "Code": "TaxId"
+                }
+            },
+            {
+                "IdValue": "ABC123",
+                "IdType": {
+                    "Code": "IATANumber"
+                }
+            },
+            {
+                "IdValue": "TAX1234567",
+                "IdType": {
+                    "Code": "TaxId"
+                }
+            }
+        ],
+        "VipStatus": {
+            "Name": "VIP Status1",
+            "Code": "VIP1"
+        },
+        "TransactionalCommPreferences": [
+            {
+                "StayType": [
+                    "Business",
+                    "Personal"
+                ],
+                "PhoneNumber": "603-911-911",
+                "LocationCode": [
+                    {
+                        "Name": "Tampa Property",
+                        "Code": "242848"
+                    },
+                    {
+                        "Name": "Tampa Property",
+                        "Code": "242848"
+                    }
+                ],
+                "Email": "ayoung@test.com",
+                "CommunicationTypes": [
+                    "PreStay",
+                    "PostStay",
+                    "Confirmation",
+                    "Cancellation",
+                    "InHouse"
+                ],
+                "CommunicationOptInOut": "OptIn",
+                "CommunicationMethod": "Email",
+                "CommunicationFormat": "Text"
+            }
+        ],
+        "Title": "SVP, Operations",
+        "Suffix": "Jr.",
+        "StayPreferences": [
+            {
+                "StayType": [
+                    "Business",
+                    "Personal"
+                ],
+                "PreferenceValue": "PreferenceValue",
+                "PreferenceCode": {
+                    "Name": "Preference Code1",
+                    "Code": "PREFCODE1"
+                },
+                "PreferenceCategory": {
+                    "Name": "Preference Category1",
+                    "Code": "PREFCAT1"
+                },
+                "LocationCode": [
+                    {
+                        "Name": "Tampa Property",
+                        "Code": "242848"
+                    },
+                    {
+                        "Name": "Tampa Property",
+                        "Code": "242848"
+                    }
+                ]
+            }
+        ],
+        "SpouseName": "Diana Young",
+        "Salutation": "Sir",
+        "Pronunciation": "Andy Yung",
+        "PhoneNumbers": [
+            {
+                "Priority": 1,
+                "PhoneNumberType": {
+                    "Code": "OfficeDirect"
+                },
+                "Phone": "6034578566",
+                "IsPrimary": true,
+                "Extension": "3423"
+            }
+        ],
+        "NumberOfChildren": 3,
+        "MiddleName": "Flower",
+        "Memberships": [
+            {
+                "SignupDate": "2015-03-13",
+                "ProgramType": {
+                    "Name": "ProgramType1",
+                    "Code": "PROGTYPE1"
+                },
+                "ProgramCode": {
+                    "Name": "Default Program Code",
+                    "Code": "PROGRAM"
+                },
+                "MembershipNumber": "12345",
+                "MembershipLevel": {
+                    "Name": "Default Membership Level",
+                    "Code": "LEVEL"
+                },
+                "ExpireDate": "2015-03-31",
+                "EffectiveDate": "2015-03-13",
+                "CurrentPointsDate": "2015-03-13",
+                "CurrentPoints": 50
+            },
+            {
+                "SignupDate": "2015-01-28",
+                "ProgramType": {
+                    "Name": "ProgramType1",
+                    "Code": "PROGTYPE1"
+                },
+                "ProgramCode": {
+                    "Code": "PROG1"
+                },
+                "MembershipNumber": "MembershipNumber_1",
+                "MembershipLevel": {
+                    "Name": "Membership Level1",
+                    "Code": "MEMLEVEL1"
+                },
+                "ExpireDate": "2016-01-04",
+                "EffectiveDate": "2015-01-29",
+                "CurrentPointsDate": "2015-01-28",
+                "CurrentPoints": 50
+            }
+        ],
+        "MarketingCommPreferences": [
+            {
+                "PhoneNumber": "603-911-911",
+                "LocationCode": [
+                    {
+                        "Name": "Tampa Property",
+                        "Code": "242848"
+                    }
+                ],
+                "Email": "ayoung@test.com",
+                "CommunicationOptInOut": "OptIn",
+                "CommunicationMethod": "Email",
+                "CommunicationFrequency": "Weekly",
+                "CommunicationFormat": "Text"
+            }
+        ],
+        "MaritalStatus": {
+            "Code": "Married"
+        },
+        "Locations": [
+            {
+                "Name": "Tampa Property",
+                "Code": "242848"
+            },
+            {
+                "Name": "Tampa Property",
+                "Code": "242848"
+            },
+            {
+                "Name": "Tampa Property",
+                "Code": "242848"
+            },
+            {
+                "Name": "Tampa Property",
+                "Code": "242848"
+            }
+        ],
+        "LastName": "Young",
+        "LanguageCode": {
+            "Name": "English",
+            "Code": "EN"
+        },
+        "IsGlobal": false,
+        "Initials": "AY",
+        "Honorific": "Mr.",
+        "Gender": {
+            "Code": "Male"
+        },
+        "FirstName": "Andy",
+        "EmailAddresses": [
+            {
+                "IsPrimary": true,
+                "EmailAddressType": {
+                    "Code": "Business"
+                },
+                "Address": "ayoung@test.com"
+            }
+        ],
+        "Department": "Internal Operations",
+        "DateOfBirth": "1966-01-01",
+        "Comments": [
+            {
+                "Originator": "Andy Young",
+                "IsPublic": true,
+                "CommentType": {
+                    "Name": "Comment Type2",
+                    "Code": "CMTTYP2"
+                },
+                "CommentText": "Comment text goes here",
+                "CommentDate": "2015-02-10T19:04:00.000Z"
+            },
+            {
+                "Originator": "PMSA",
+                "IsPublic": true,
+                "CommentType": {
+                    "Name": "Comment Type1",
+                    "Code": "CMTTYP1"
+                },
+                "CommentText": "Comment Type2. India got from the game the two points they needed to keep their chances of making the final alive after persistent rain ensured only 16 overs were bowled. Looking at the overcast skies and the tackiness underfoot, Australia's returning captain George Bailey put India in, and saw India struggle to 69 for 2 in 16 overs. Shikhar Dhawan clocked another failure, scoring 8 before gloving Mitchell Starc to first slip while trying to open the face of the bat. Ambati Rayudu didn't look at home batting at No. 3, and top-edged Mitchell Marsh while coming down the track and slashing.\r\n\r\nIndia might have issues, but they stayed alive in the tournament. Had they lost they would have been left with the task of beating England by a bonus point and also correcting their net run rate significantly in the final league match, to be played in Perth on Friday. India now have two points to England's five and Australia's 15. The India-England match is now a virtual semi-final.\r\n\r\nThere was more good news for India, in that they played their two injured bowlers, Ishant Sharma and Ravindra Jadeja. The two could be key to their World Cup plans. Rohit Sharma stayed out with a sore hamstring, but this will give him time to recover.",
+                "CommentDate": "2015-01-27T16:04:00.000Z"
+            },
+            {
+                "Originator": "PMSA",
+                "IsPublic": false,
+                "CommentType": {
+                    "Name": "Comment Type2",
+                    "Code": "CMTTYP2"
+                },
+                "CommentText": "Comment Text with chinese chracters:  1月26日，李克强主持召开座谈会，听取专家学者和企业界人士对《政府工作报告》的意见建议。李克强说，政府不能总给市场“发号施令”，而要集中精力做好自己“该做的工作”。他开门见山对参会者说：“请各位为《政府工作报告》提出宝贵意见。”",
+                "CommentDate": "2015-01-28T16:07:00.000Z"
+            }
+        ],
+        "AssistantName": "Andy Young Sr.",
+        "AlternateTitle": "AY",
+        "AlternateSuffix": "Jr.",
+        "AlternateSalutation": "Sir",
+        "AlternateMiddleName": "Flower",
+        "AlternateLastName": "Young",
+        "AlternateLanguageCode": {
+            "Name": "Spanish",
+            "Code": "ES"
+        },
+        "AlternateHonorific": "Sir",
+        "AlternateFirstName": "Andrew",
+        "Addresses": [
+            {
+                "StateProvince": "NH",
+                "PostalCode": "03801",
+                "Longitude": 70.7606,
+                "Lattitude": 43.0756,
+                "IsPrimary": true,
+                "CountryCode": {
+                    "Code": "US"
+                },
+                "Country": "United States",
+                "City": "Portsmouth",
+                "AlternateStateProvince": "NH",
+                "AlternatePostalCode": "03801",
+                "AlternateCountry": "United States",
+                "AlternateCity": "Portsmouth",
+                "AlternateAddressLine3": "1st Floor",
+                "AlternateAddressLine2": "STE 100",
+                "AlternateAddressLine1": "135 Commerce Way",
+                "AddressType": {
+                    "Code": "Mailing"
+                },
+                "AddressLine3": "2nd Floor",
+                "AddressLine2": "STE 300",
+                "AddressLine1": "75 NH Ave"
+            }
+        ],
+        "AccountRelationships": [
+            {
+                "Role": {
+                    "Code": "Customer"
+                },
+                "AccountId": "001o0000009z81qAAA"
+            }
+        ]
+    }
+]
