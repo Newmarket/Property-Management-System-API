@@ -35,7 +35,7 @@ Connection: Close
           "RevenueType": {
             "Code": "Guestroom"
           },
-          "Amount": 1250.0
+          "Amount": 1225.0
         }
       ]
     }
