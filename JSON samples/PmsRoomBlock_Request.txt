@@ -255,6 +255,7 @@ Connection: Close
       } ],
       "Department" : "Internal Operations",
       "DateOfBirth" : "1966-01-01",
+      "PmsComments" : "Unstructured flat text comments go here.",
       "Comments" : [ {
         "Originator" : "Andy Young",
         "IsPublic" : true,
